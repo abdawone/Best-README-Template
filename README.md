@@ -167,8 +167,13 @@ Activating the virtual environment will change your shell’s prompt to show wha
 ```sh
    (ibel-env) $ 
    ```
+3. Install pip3 and libraries
+4. For libraries using native code, installation of development tools and native dependencies is required before installing the Python dependencies of Ibel.
 
-4. Install Postgresql
+```sh
+   $ sudo apt install python3-pip python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libssl-dev libpq-dev libjpeg-dev
+   ```
+6. Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
 
