@@ -95,8 +95,8 @@ The main Ibel Apps include an <a href="https://www.ibel.app/page/crm">Open Sourc
 <a href="https://www.ibel.app/page/manufacturing">Manufacturing</a>,
 <a href="https://www.ibel.app/#apps">...</a>
 
-Ibel Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
-a full-featured <a href="https://www.ibel.app">Open Source ERP</a> when you install several Apps.
+Ibel Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured <a href="https://www.ibel.app">Open Source ERP</a> when you install several Apps.
+
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
