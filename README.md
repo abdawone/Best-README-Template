@@ -123,7 +123,12 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+1. Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
+
+On Debian/Unbuntu, it can be achieved by executing the following:
+```sh
+   $ sudo apt install postgresql postgresql-client
+   ```
 2. Clone the repo
    ```sh
    git clone https://github.com/your_username_/Project-Name.git
