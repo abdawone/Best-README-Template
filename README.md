@@ -158,7 +158,15 @@ To create a virtual environment, decide upon a directory where you want to place
    $ python3 -m venv ibel-env 
    ```
 This will create the ibel-env directory if it doesn’t exist, and also create directories inside it containing a copy of the Python interpreter, the standard library, and various supporting files. 
+
 Once you’ve created a virtual environment, you may activate it.
+```sh
+   $ source ibel-env/bin/activate 
+   ```
+Activating the virtual environment will change your shell’s prompt to show what virtual environment you’re using, and modify the environment so that running python will get you that particular version and installation of Python. 
+```sh
+   $ (ibel-env) $ 
+   ```
 
 4. Install Postgresql
 
