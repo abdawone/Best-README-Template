@@ -32,33 +32,17 @@
   </a>
 
   <h3 align="center">Ibel</h3>
-  <p>
-    Ibel is a suite of web based open source business apps.
-  </p>
-  <p>
-    The main Ibel Apps include an <a href="https://www.ibel.app/page/crm">Open Source CRM</a>,
-    <a href="https://www.ibel.app/page/website-builder">Website Builder</a>,
-    <a href="https://www.ibel.app/page/e-commerce">eCommerce</a>,
-    <a href="https://www.ibel.app/page/warehouse">Warehouse Management</a>,
-    <a href="https://www.ibel.app/page/project-management">Project Management</a>,
-    <a href="https://www.ibel.app/page/accounting">Billing &amp; Accounting</a>,
-    <a href="https://www.ibel.app/page/point-of-sale">Point of Sale</a>,
-    <a href="https://www.ibel.app/page/employees">Human Resources</a>,
-    <a href="https://www.ibel.app/page/lead-automation">Marketing</a>,
-    <a href="https://www.ibel.app/page/manufacturing">Manufacturing</a>,
-    <a href="https://www.ibel.app/#apps">...</a>
-  </p>
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    A suite of open source business apps!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.ibel.app"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://demo.ibel.app">View Demo</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+    <a href="https://github.com/Ibel-technology/ibel/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+    <a href="https://github.com/othneildrew/Ibel-technology/ibel/issues">Request Feature</a>
   </p>
 </p>
 
