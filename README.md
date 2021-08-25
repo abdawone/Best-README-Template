@@ -126,13 +126,20 @@ This is an example of how to list things you need to use the software and how to
 #### Fetch the source & configure Git
 1. Install & configure Git
 
-The very first step of the installation process is to install the git version control system because the Odoo source code is managed on GitHub. Once installed, you can set your name and email:
+The very first step of the installation process is to install the git version control system because the Ibel source code is managed on GitHub. Once installed, you can set your name and email:
 ```bash
    $ sudo apt install git
    $ git config --global user.name "Your full name"
    $ git config --global user.email "xyz@odoo.com"
    ```
-
+2. Fetch the sources 
+All the Odoo sources will be located in $HOME/src/
+```sh
+   $ mkdir -p $HOME/src
+   $ cd $HOME/src
+   $ git clone git@github.com:odoo/odoo.git
+   $ git clone git@github.com:odoo/enterprise.git
+   ```
 
 1. Install Postgresql
 
