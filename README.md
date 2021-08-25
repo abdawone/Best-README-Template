@@ -130,17 +130,17 @@ The very first step of the installation process is to install the git version co
 ```bash
    $ sudo apt install git
    $ git config --global user.name "Your full name"
-   $ git config --global user.email "xyz@odoo.com"
+   $ git config --global user.email "xyz@ibel.app"
    ```
 2. Fetch the sources 
 All the Odoo sources will be located in $HOME/src/
 ```sh
    $ mkdir -p $HOME/src
    $ cd $HOME/src
-   $ git clone git@github.com:odoo/odoo.git
-   $ git clone git@github.com:odoo/enterprise.git
+   $ git clone https://github.com/Ibel-technology/ibel.git
+   $ git clone https://github.com/Ibel-technology/ibel_addons.git
    ```
-
+#### 
 1. Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
