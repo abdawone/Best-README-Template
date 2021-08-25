@@ -81,10 +81,26 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+Ibel is a suite of web based open source business apps.
+
+The main Ibel Apps include an <a href="https://www.ibel.app/page/crm">Open Source CRM</a>,
+<a href="https://www.ibel.app/page/website-builder">Website Builder</a>,
+<a href="https://www.ibel.app/page/e-commerce">eCommerce</a>,
+<a href="https://www.ibel.app/page/warehouse">Warehouse Management</a>,
+<a href="https://www.ibel.app/page/project-management">Project Management</a>,
+<a href="https://www.ibel.app/page/accounting">Billing &amp; Accounting</a>,
+<a href="https://www.ibel.app/page/point-of-sale">Point of Sale</a>,
+<a href="https://www.ibel.app/page/employees">Human Resources</a>,
+<a href="https://www.ibel.app/page/lead-automation">Marketing</a>,
+<a href="https://www.ibel.app/page/manufacturing">Manufacturing</a>,
+<a href="https://www.ibel.app/#apps">...</a>
+
+Ibel Apps can be used as stand-alone applications, but they also integrate seamlessly so you get
+a full-featured <a href="https://www.ibel.app">Open Source ERP</a> when you install several Apps.
 There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
 
 Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
+* Your time should be focused on creating something amazing. A project thatsolves a problem and helps others
 * You shouldn't be doing the same tasks over and over like creating a README from scratch
 * You should implement DRY principles to the rest of your life :smile:
 
