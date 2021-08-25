@@ -123,6 +123,17 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
+#### Fetch the source & configure Git
+1. Install & configure Git
+
+The very first step of the installation process is to install the git version control system because the Odoo source code is managed on GitHub. Once installed, you can set your name and email:
+```bash
+   $ sudo apt install git
+   $ git config --global user.name "Your full name"
+   $ git config --global user.email "xyz@odoo.com"
+   ```
+
+
 1. Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
