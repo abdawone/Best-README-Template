@@ -77,7 +77,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## About Ibel
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
@@ -97,20 +97,12 @@ The main Ibel Apps include an <a href="https://www.ibel.app/page/crm">Open Sourc
 
 Ibel Apps can be used as stand-alone applications, but they also integrate seamlessly so you get a full-featured <a href="https://www.ibel.app">Open Source ERP</a> when you install several Apps.
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project thatsolves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
 ### Built With
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Ibel is a new <a href="https://github.com/odoo/odoo">Odoo</a> distribution created by <a href="https://github.com/Ibel-technology">Ibel technology</a> from <a href="https://github.com/OCA/OCB">Odoo Community Backport (OCB)</a> and a collection of open source community modules gathered in the <a href="https://github.com/Ibel-technology/ibel_addons">ibel_addons</a> directory. These add-ons improve the user interface and fill in the features missing in Odoo community edition. Ibel even adds features that do not exist in Odoo enterprise.
+
+Ibel therefore wants to be a 100% open source alternative to Odoo enterprise.
 * [Bootstrap](https://getbootstrap.com)
 * [JQuery](https://jquery.com)
 * [Laravel](https://laravel.com)
