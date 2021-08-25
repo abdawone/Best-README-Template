@@ -173,7 +173,21 @@ Activating the virtual environment will change your shell’s prompt to show wha
 ```sh
    $ sudo apt install python3-pip python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libssl-dev libpq-dev libjpeg-dev
    ```
-6. Install Postgresql
+5. Install Ibel requirements in virtual env
+```sh
+   (ibel-env) $ pip3 install -r ibel/requirements.txt
+   ```
+6. Install wkhtmltopdf
+
+wkhtmltopdf is a library to render HTML into PDF. Odoo uses it to create PDF reports. wkhtmltopdf is not installed through pip and must be installed manually in version 0.12.5 to support headers and footers.
+```sh
+   $ cd /tmp/
+   $ sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
+   $ sudo gdebi --n wkhtmltox_0.12.5-1.focal_amd64.deb
+   $ sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
+   $ sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
+   ```
+8. Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
 
