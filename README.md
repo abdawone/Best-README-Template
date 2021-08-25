@@ -104,7 +104,7 @@ Ibel is a new <a href="https://github.com/odoo/odoo">Odoo</a> distribution creat
 
 Ibel therefore wants to be a 100% open source alternative to Odoo enterprise.
 * [ibel](https://github.com/Ibel-technology/ibel)
-* [JQuery](https://github.com/Ibel-technology/ibel_addons)
+* [ibel_addons](https://github.com/Ibel-technology/ibel_addons)
 
 
 <!-- GETTING STARTED -->
