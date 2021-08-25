@@ -103,10 +103,8 @@ Ibel Apps can be used as stand-alone applications, but they also integrate seaml
 Ibel is a new <a href="https://github.com/odoo/odoo">Odoo</a> distribution created by <a href="https://github.com/Ibel-technology">Ibel technology</a> from <a href="https://github.com/OCA/OCB">Odoo Community Backport (OCB)</a> and a collection of open source community modules gathered in the <a href="https://github.com/Ibel-technology/ibel_addons">ibel_addons</a> directory. These add-ons improve the user interface and fill in the features missing in Odoo community edition. Ibel even adds features that do not exist in Odoo enterprise.
 
 Ibel therefore wants to be a 100% open source alternative to Odoo enterprise.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+* [ibel](https://github.com/Ibel-technology/ibel)
+* [JQuery](https://github.com/Ibel-technology/ibel_addons)
 
 
 <!-- GETTING STARTED -->
