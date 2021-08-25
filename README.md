@@ -27,7 +27,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Ibel-technology/ibel/tree/14.0/addons/web/static/src/img/">
+  <a href="#">
     <img src="https://github.com/Ibel-technology/ibel/tree/14.0/addons/web/static/src/img/logo2.png" alt="Logo" width="80" height="80">
   </a>
 
