@@ -42,7 +42,7 @@
     ·
     <a href="https://github.com/Ibel-technology/ibel/issues">Report Bug</a>
     ·
-    <a href="https://github.com/othneildrew/Ibel-technology/ibel/issues">Request Feature</a>
+    <a href="https://github.com/Ibel-technology/ibel/issues">Request Feature</a>
   </p>
 </p>
 
