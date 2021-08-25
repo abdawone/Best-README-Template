@@ -140,8 +140,27 @@ All the Odoo sources will be located in $HOME/src/
    $ git clone https://github.com/Ibel-technology/ibel.git
    $ git clone https://github.com/Ibel-technology/ibel_addons.git
    ```
-#### 
-1. Install Postgresql
+#### Install the dependencies
+1. Python
+Odoo requires Python 3.6 or later, if your computer is up-to-date you should already be at this version or higher.
+
+You can check your Python version with:
+```sh
+   $ python3 --version
+   ```
+2. Create python virtual environments
+
+It can be preferable to not mix python modules packages between different instances of Odoo or with your system. You can use virtualenv to create isolated Python environments.
+The module used to create and manage virtual environments is called venv. venv will usually install the most recent version of Python that you have available. If you have multiple versions of Python on your system, you can select a specific Python version by running python3 or whichever version you want.
+
+To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
+```sh
+   $ python3 -m venv ibel-env 
+   ```
+This will create the ibel-env directory if it doesn’t exist, and also create directories inside it containing a copy of the Python interpreter, the standard library, and various supporting files. 
+Once you’ve created a virtual environment, you may activate it.
+
+4. Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
 
