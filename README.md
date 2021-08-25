@@ -141,14 +141,14 @@ All the Odoo sources will be located in $HOME/src/
    $ git clone https://github.com/Ibel-technology/ibel_addons.git
    ```
 #### Install the dependencies
-1. Python
+##### Python
 Odoo requires Python 3.6 or later, if your computer is up-to-date you should already be at this version or higher.
 
 You can check your Python version with:
 ```sh
    $ python3 --version
    ```
-2. Create python virtual environments
+##### Create python virtual environments
 
 It can be preferable to not mix python modules packages between different instances of Odoo or with your system. You can use virtualenv to create isolated Python environments.
 The module used to create and manage virtual environments is called venv. venv will usually install the most recent version of Python that you have available. If you have multiple versions of Python on your system, you can select a specific Python version by running python3 or whichever version you want.
@@ -167,17 +167,17 @@ Activating the virtual environment will change your shell’s prompt to show wha
 ```sh
    (ibel-env) $ 
    ```
-3. Install pip3 and libraries
-4. For libraries using native code, installation of development tools and native dependencies is required before installing the Python dependencies of Ibel.
+##### Install pip3 and libraries
+For libraries using native code, installation of development tools and native dependencies is required before installing the Python dependencies of Ibel.
 
 ```sh
    $ sudo apt install python3-pip python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libssl-dev libpq-dev libjpeg-dev
    ```
-5. Install Ibel requirements in virtual env
+##### Install Ibel requirements in virtual env
 ```sh
    (ibel-env) $ pip3 install -r ibel/requirements.txt
    ```
-6. Install wkhtmltopdf
+##### Install wkhtmltopdf
 
 wkhtmltopdf is a library to render HTML into PDF. Odoo uses it to create PDF reports. wkhtmltopdf is not installed through pip and must be installed manually in version 0.12.5 to support headers and footers.
 ```sh
@@ -187,7 +187,7 @@ wkhtmltopdf is a library to render HTML into PDF. Odoo uses it to create PDF rep
    $ sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
    $ sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
    ```
-8. Install Postgresql
+##### Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
 
