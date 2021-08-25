@@ -32,10 +32,10 @@
   </a>
 
   <h3 align="center">Ibel</h3>
-  <p align="center">
+  <p>
     Ibel is a suite of web based open source business apps.
   </p>
-  <p align="center">
+  <p>
     The main Ibel Apps include an <a href="https://www.ibel.app/page/crm">Open Source CRM</a>,
     <a href="https://www.ibel.app/page/website-builder">Website Builder</a>,
     <a href="https://www.ibel.app/page/e-commerce">eCommerce</a>,
