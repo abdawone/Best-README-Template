@@ -31,8 +31,23 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
-
+  <h3 align="center">Ibel</h3>
+  <p align="center">
+    Ibel is a suite of web based open source business apps.
+  </p>
+  <p align="center">
+    The main Ibel Apps include an <a href="https://www.ibel.app/page/crm">Open Source CRM</a>,
+    <a href="https://www.ibel.app/page/website-builder">Website Builder</a>,
+    <a href="https://www.ibel.app/page/e-commerce">eCommerce</a>,
+    <a href="https://www.ibel.app/page/warehouse">Warehouse Management</a>,
+    <a href="https://www.ibel.app/page/project-management">Project Management</a>,
+    <a href="https://www.ibel.app/page/accounting">Billing &amp; Accounting</a>,
+    <a href="https://www.ibel.app/page/point-of-sale">Point of Sale</a>,
+    <a href="https://www.ibel.app/page/employees">Human Resources</a>,
+    <a href="https://www.ibel.app/page/lead-automation">Marketing</a>,
+    <a href="https://www.ibel.app/page/manufacturing">Manufacturing</a>,
+    <a href="https://www.ibel.app/#apps">...</a>
+  </p>
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
