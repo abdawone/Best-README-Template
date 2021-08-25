@@ -124,6 +124,7 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 1. Install Postgresql
+
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
 
 On Debian/Unbuntu, it can be achieved by executing the following:
