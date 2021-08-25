@@ -124,7 +124,7 @@ This is an example of how to list things you need to use the software and how to
 ### Installation
 
 #### Fetch the source & configure Git
-1. Install & configure Git
+##### Install & configure Git
 
 The very first step of the installation process is to install the git version control system because the Ibel source code is managed on GitHub. Once installed, you can set your name and email:
 ```bash
@@ -132,7 +132,7 @@ The very first step of the installation process is to install the git version co
    $ git config --global user.name "Your full name"
    $ git config --global user.email "xyz@ibel.app"
    ```
-2. Fetch the sources 
+##### Fetch the sources 
 All the Odoo sources will be located in $HOME/src/
 ```sh
    $ mkdir -p $HOME/src
@@ -195,21 +195,6 @@ On Debian/Unbuntu, it can be achieved by executing the following:
 ```sh
    $ sudo apt install postgresql postgresql-client
    ```
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```JS
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
