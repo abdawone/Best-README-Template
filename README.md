@@ -228,8 +228,9 @@ _Also refer to the [Documentation](https://www.odoo.com/documentation/14.0/devel
 
 2. Then, to start the server with the saved options, run the following command:
 ```sh
-   (ibel-env) $ python3 ibel/odoo-bin --config ibel.conf 
+   (ibel-env) $ python3 ibel/odoo-bin --config ibel.conf --database mydb
    ```
+mydb is the name of database that is going to be used.
 #### Log in to Ibel
 
 Open _[http://localhost:8069/](http://localhost:8069/)_ on your browser. We recommend you use: Firefox, Chrome (Chromium the open source equivalent) or any other browser with development tools.
