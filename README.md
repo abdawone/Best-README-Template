@@ -210,6 +210,13 @@ Activating the virtual environment will change your shell’s prompt to show wha
 ```sh
    (ibel-env) $ pip3 install -r ibel/requirements.txt
    ```
+### Run the server
+#### Running odoo-bin
+Once all dependencies are set up, Odoo can be launched by running odoo-bin, the command-line interface of the server.
+```sh
+   (ibel-env) $ python3 ibel/odoo-bin -c ibel.conf --addons-path ibel/addons,ibel_addons -s --stop-after-init
+   ```
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
