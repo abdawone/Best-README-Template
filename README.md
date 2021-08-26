@@ -219,22 +219,17 @@ command:
 ```sh
    (ibel-env) $ python3 ibel/odoo-bin --config ibel.conf --addons-path ibel/addons,ibel_addons --save --stop-after-init
    ```
--d<database>
-The database that is going to be used.
-
---addons-path<directories>
-A comma-separated list of directories in which modules are stored. These directories are scanned for modules.
-2. Then, to start the server with the saved options, run the following command:
-```sh
-   (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
-   ```
 You can add additional options, and their values will be saved in the generated file. All the unset options will be saved with their default value set. To get a list of possible options, use the following command:
 ```sh
    (ibel-env) $ python3 ibel/odoo-bin --help
    ```
 This will provide you with some help about what the various options perform.
 
-_Also refer to the [Documentation](https://example.com)_
+_Also refer to the [Documentation](https://www.odoo.com/documentation/14.0/developer/misc/other/cmdline.html#reference-cmdline-server)_
+2. Then, to start the server with the saved options, run the following command:
+```sh
+   (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
+   ```
   
 <!-- USAGE EXAMPLES -->
 ## Usage
