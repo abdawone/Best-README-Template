@@ -229,12 +229,19 @@ A comma-separated list of directories in which modules are stored. These directo
    (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
    ```
 You can add additional options, and their values will be saved in the generated file. All the unset options will be saved with their default value set. To get a list of possible options, use the following command:
+```sh
+   (ibel-env) $ python3 ibel/odoo-bin --help
+   ```
+This will provide you with some help about what the various options perform.
+
+_Also refer to the [Documentation](https://example.com)_
+  
 <!-- USAGE EXAMPLES -->
 ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Documentation](https://www.odoo.com/documentation/14.0/developer/misc/other/cmdline.html#reference-cmdline-server)_
 
 
 
