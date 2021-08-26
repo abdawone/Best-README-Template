@@ -146,12 +146,20 @@ All the Odoo sources will be located in $HOME/src/
 
 wkhtmltopdf is a library to render HTML into PDF. Odoo uses it to create PDF reports. wkhtmltopdf is not installed through pip and must be installed manually in version 0.12.5 to support headers and footers.
 ```sh
+   $ sudo apt install gdebi
    $ cd /tmp/
    $ sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
    $ sudo gdebi --n wkhtmltox_0.12.5-1.focal_amd64.deb
    $ sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
    $ sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
    ```
+##### Right-to-left interface support
+In order to support right-to-left (RTL) languages, we need rtlcss to convert the CSS files:
+```sh
+   $ sudo apt-get install nodejs npm
+   $ sudo npm install -g rtlcss
+   ```
+
 ##### Install Postgresql
 
 Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
