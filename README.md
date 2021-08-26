@@ -79,7 +79,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About Ibel
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][images/enterprise_upgrade.jpg]](https://example.com)
 
 Ibel is a suite of web based open source business apps.
 
