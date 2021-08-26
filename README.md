@@ -278,9 +278,9 @@ Distributed under the GNU LESSER GENERAL PUBLIC LICENSE, Version 3 (LGPLv3). See
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+Abdourahmane Wone - [@your_twitter](https://twitter.com/abdawone) - abdourahmanewone@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://ibel.app](https://ibel.app)
 
 
 
@@ -305,8 +305,8 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/abdawone/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/abdawone/Best-README-Template.svg?style=for-the-badge
+[contributors-url]: https://github.com/Ibel-technology/ibel/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Ibel-technology/ibel.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
 [stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
