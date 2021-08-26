@@ -232,7 +232,7 @@ _Also refer to the [Documentation](https://www.odoo.com/documentation/14.0/devel
    ```
 #### Log in to Odoo
 
-Open [http://localhost:8069/] on your browser. We recommend you use: Firefox, Chrome (Chromium the open source equivalent) or any other browser with development tools.
+Open [!http://localhost:8069/] on your browser. We recommend you use: Firefox, Chrome (Chromium the open source equivalent) or any other browser with development tools.
 
 To log in as the administrator user, you can use the following credentials:
 
