@@ -191,8 +191,7 @@ For libraries using native code, installation of development tools and native de
    ```
 ##### Create python virtual environments
 It can be preferable to not mix python modules packages between different instances of Odoo or with your system. You can use virtualenv to create isolated Python environments.
-The module used to create and manage virtual environments is called venv. venv will usually install the most recent version of Python that you have available. If you have multiple versions of Python on your system, you can select a specific Python version by running python3 or whichever version you want.
-To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
+
 ```sh
    $ python3 -m venv ibel-env 
    ```
@@ -229,9 +228,17 @@ _Also refer to the [Documentation](https://www.odoo.com/documentation/14.0/devel
 
 2. Then, to start the server with the saved options, run the following command:
 ```sh
-   (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
+   (ibel-env) $ python3 ibel/odoo-bin --config ibel.conf 
    ```
-  
+#### Log in to Odoo
+
+Open [http://localhost:8069/] on your browser. We recommend you use: Firefox, Chrome (Chromium the open source equivalent) or any other browser with development tools.
+
+To log in as the administrator user, you can use the following credentials:
+
+email = admin
+
+password = admin
 <!-- USAGE EXAMPLES -->
 ## Usage
 
