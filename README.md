@@ -313,7 +313,7 @@ Project Link: [https://ibel.app](https://ibel.app)
 [issues-shield]: https://img.shields.io/github/issues/Ibel-technology/ibel.svg?style=for-the-badge
 [issues-url]: https://github.com/Ibel-technology/ibel/issues
 [license-shield]: https://img.shields.io/github/license/Ibel-technology/ibel.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Ibel-technology/ibel/blob/14.0/LICENSE
+[license-url]: https://github.com/Ibel-technology/ibel/blob/14.0/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
