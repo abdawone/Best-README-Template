@@ -165,7 +165,7 @@ By default, the only user is postgres but Odoo forbids connecting as postgres, s
    $ sudo -u postgres createuser -s $USER
    $ createdb $USER
    ```
-**Note**Because your PostgreSQL user has the same name as your Unix login, you will be able to connect to the database without password.
+**Note:** Because your PostgreSQL user has the same name as your Unix login, you will be able to connect to the database without password.
 
 ##### Python
 Odoo requires Python 3.6 or later, if your computer is up-to-date you should already be at this version or higher.
