@@ -123,7 +123,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-#### configure Git & Fetch the source 
+#### Configure Git & fetch the source 
 ##### Install & configure Git
 
 The very first step of the installation process is to install the git version control system because the Ibel source code is managed on GitHub. Once installed, you can set your name and email:
@@ -230,9 +230,9 @@ _Also refer to the [Documentation](https://www.odoo.com/documentation/14.0/devel
 ```sh
    (ibel-env) $ python3 ibel/odoo-bin --config ibel.conf 
    ```
-#### Log in to Odoo
+#### Log in to Ibel
 
-Open [!http://localhost:8069/] on your browser. We recommend you use: Firefox, Chrome (Chromium the open source equivalent) or any other browser with development tools.
+Open _[http://localhost:8069/](http://localhost:8069/)_ on your browser. We recommend you use: Firefox, Chrome (Chromium the open source equivalent) or any other browser with development tools.
 
 To log in as the administrator user, you can use the following credentials:
 
