@@ -53,7 +53,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-project">About Ibel</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -123,7 +123,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-#### Fetch the source & configure Git
+#### configure Git & Fetch the source 
 ##### Install & configure Git
 
 The very first step of the installation process is to install the git version control system because the Ibel source code is managed on GitHub. Once installed, you can set your name and email:
@@ -167,11 +167,16 @@ You can check your Python version with:
 ```sh
    $ python3 --version
    ```
-##### Create python virtual environments
 
+##### Install pip3 and libraries
+For libraries using native code, installation of development tools and native dependencies is required before installing the Python dependencies of Ibel.
+
+```sh
+   $ sudo apt install python3-pip python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libssl-dev libpq-dev libjpeg-dev
+   ```
+##### Create python virtual environments
 It can be preferable to not mix python modules packages between different instances of Odoo or with your system. You can use virtualenv to create isolated Python environments.
 The module used to create and manage virtual environments is called venv. venv will usually install the most recent version of Python that you have available. If you have multiple versions of Python on your system, you can select a specific Python version by running python3 or whichever version you want.
-
 To create a virtual environment, decide upon a directory where you want to place it, and run the venv module as a script with the directory path:
 ```sh
    $ python3 -m venv ibel-env 
@@ -185,12 +190,6 @@ Once you’ve created a virtual environment, you may activate it.
 Activating the virtual environment will change your shell’s prompt to show what virtual environment you’re using, and modify the environment so that running python will get you that particular version and installation of Python. 
 ```sh
    (ibel-env) $ 
-   ```
-##### Install pip3 and libraries
-For libraries using native code, installation of development tools and native dependencies is required before installing the Python dependencies of Ibel.
-
-```sh
-   $ sudo apt install python3-pip python3-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libssl-dev libpq-dev libjpeg-dev
    ```
 ##### Install Ibel requirements in virtual env
 ```sh
