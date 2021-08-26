@@ -217,13 +217,18 @@ Once all dependencies are set up, Ibel can be launched by running odoo-bin, the 
 1. To generate a configuration file for your Odoo instance, run the following
 command:
 ```sh
-   (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf --addons-path ibel/addons,ibel_addons -save --stop-after-init
+   (ibel-env) $ python3 ibel/odoo-bin --config ibel.conf --addons-path ibel/addons,ibel_addons --save --stop-after-init
    ```
+-d<database>
+The database that is going to be used.
+
+--addons-path<directories>
+A comma-separated list of directories in which modules are stored. These directories are scanned for modules.
 2. Then, to start the server with the saved options, run the following command:
 ```sh
    (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
    ```
-
+You can add additional options, and their values will be saved in the generated file. All the unset options will be saved with their default value set. To get a list of possible options, use the following command:
 <!-- USAGE EXAMPLES -->
 ## Usage
 
