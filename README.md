@@ -137,8 +137,8 @@ All the Odoo sources will be located in $HOME/src/
 ```sh
    $ mkdir -p $HOME/src
    $ cd $HOME/src
-   $ git clone https://github.com/Ibel-technology/ibel.git
-   $ git clone https://github.com/Ibel-technology/ibel_addons.git
+   $ git clone https://github.com/Ibel-technology/ibel.git -b 14.0 --single-branch --depth 1
+   $ git clone https://github.com/Ibel-technology/ibel_addons.git -b 14.0 --single-branch --depth 1
    ```
 #### Install the dependencies
 
