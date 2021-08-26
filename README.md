@@ -226,6 +226,7 @@ You can add additional options, and their values will be saved in the generated 
 This will provide you with some help about what the various options perform.
 
 _Also refer to the [Documentation](https://www.odoo.com/documentation/14.0/developer/misc/other/cmdline.html#reference-cmdline-server)_
+
 2. Then, to start the server with the saved options, run the following command:
 ```sh
    (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
