@@ -141,6 +141,25 @@ All the Odoo sources will be located in $HOME/src/
    $ git clone https://github.com/Ibel-technology/ibel_addons.git
    ```
 #### Install the dependencies
+
+##### Install wkhtmltopdf
+
+wkhtmltopdf is a library to render HTML into PDF. Odoo uses it to create PDF reports. wkhtmltopdf is not installed through pip and must be installed manually in version 0.12.5 to support headers and footers.
+```sh
+   $ cd /tmp/
+   $ sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
+   $ sudo gdebi --n wkhtmltox_0.12.5-1.focal_amd64.deb
+   $ sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
+   $ sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
+   ```
+##### Install Postgresql
+
+Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
+
+On Debian/Unbuntu, it can be achieved by executing the following:
+```sh
+   $ sudo apt install postgresql postgresql-client
+   ```
 ##### Python
 Odoo requires Python 3.6 or later, if your computer is up-to-date you should already be at this version or higher.
 
@@ -176,24 +195,6 @@ For libraries using native code, installation of development tools and native de
 ##### Install Ibel requirements in virtual env
 ```sh
    (ibel-env) $ pip3 install -r ibel/requirements.txt
-   ```
-##### Install wkhtmltopdf
-
-wkhtmltopdf is a library to render HTML into PDF. Odoo uses it to create PDF reports. wkhtmltopdf is not installed through pip and must be installed manually in version 0.12.5 to support headers and footers.
-```sh
-   $ cd /tmp/
-   $ sudo wget https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.5/wkhtmltox_0.12.5-1.focal_amd64.deb
-   $ sudo gdebi --n wkhtmltox_0.12.5-1.focal_amd64.deb
-   $ sudo ln -s /usr/local/bin/wkhtmltopdf /usr/bin
-   $ sudo ln -s /usr/local/bin/wkhtmltoimage /usr/bin
-   ```
-##### Install Postgresql
-
-Ibel uses PostgreSQL as database management system. Use your package manager to download and install PostgreSQL (supported version: 10.0 and later).
-
-On Debian/Unbuntu, it can be achieved by executing the following:
-```sh
-   $ sudo apt install postgresql postgresql-client
    ```
 <!-- USAGE EXAMPLES -->
 ## Usage
