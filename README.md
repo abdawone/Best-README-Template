@@ -272,7 +272,7 @@ Contributions are what make the open source community such an amazing place to b
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the GNU LESSER GENERAL PUBLIC LICENSE, Version 3 (LGPLv3). See `[LICENSE](https://github.com/Ibel-technology/ibel/blob/14.0/LICENSE)` for more information.
 
 
 
