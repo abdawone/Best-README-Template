@@ -100,7 +100,7 @@ Ibel Apps can be used as stand-alone applications, but they also integrate seaml
 
 ### Built With
 
-Ibel is a new <a href="https://github.com/odoo/odoo">Odoo</a> distribution created by <a href="https://github.com/Ibel-technology">Ibel technology</a> from <a href="https://github.com/OCA/OCB">Odoo Community Backport (OCB)</a> and a collection of open source community modules gathered in the <a href="https://github.com/Ibel-technology/ibel_addons">ibel_addons</a> directory. These add-ons improve the user interface and fill in the features missing in Odoo community edition. Ibel even adds features that do not exist in Odoo enterprise.
+Ibel is a new <a href="https://github.com/odoo/odoo">Odoo</a> distribution created by <a href="https://github.com/Ibel-technology">Ibel technology</a> from <a href="https://github.com/OCA/OCB">Odoo Community Backport (OCB)</a> and a collection of open source community modules gathered in the <a href="https://github.com/Ibel-technology/ibel_addons">ibel_addons</a> repository. These add-ons improve the user interface and fill in the features missing in Odoo community edition. Ibel even adds features that do not exist in Odoo enterprise.
 
 Ibel therefore wants to be a 100% open source alternative to Odoo enterprise.
 * [ibel](https://github.com/Ibel-technology/ibel)
@@ -160,6 +160,13 @@ On Debian/Unbuntu, it can be achieved by executing the following:
 ```sh
    $ sudo apt install postgresql postgresql-client
    ```
+By default, the only user is postgres but Odoo forbids connecting as postgres, so you need to create a new PostgreSQL user:
+```sh
+   $ sudo -u postgres createuser -s $USER
+   $ createdb $USER
+   ```
+**Note**Because your PostgreSQL user has the same name as your Unix login, you will be able to connect to the database without password.
+
 ##### Python
 Odoo requires Python 3.6 or later, if your computer is up-to-date you should already be at this version or higher.
 
