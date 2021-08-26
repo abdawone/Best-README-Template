@@ -212,9 +212,16 @@ Activating the virtual environment will change your shell’s prompt to show wha
    ```
 ### Run the server
 #### Running odoo-bin
-Once all dependencies are set up, Odoo can be launched by running odoo-bin, the command-line interface of the server.
+Once all dependencies are set up, Ibel can be launched by running odoo-bin, the command-line interface of the server.
+
+1. To generate a configuration file for your Odoo instance, run the following
+command:
 ```sh
-   (ibel-env) $ python3 ibel/odoo-bin -c ibel.conf --addons-path ibel/addons,ibel_addons -s --stop-after-init
+   (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf --addons-path ibel/addons,ibel_addons -save --stop-after-init
+   ```
+2. Then, to start the server with the saved options, run the following command:
+```sh
+   (ibel-env) $ python3 ibel/odoo-bin -config ibel.conf 
    ```
 
 <!-- USAGE EXAMPLES -->
